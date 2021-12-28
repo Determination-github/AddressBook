@@ -33,26 +33,7 @@ public class MenuView extends JFrame {
 	private JButton btnNewButton;
 	private JButton btnNewButton_1;
 
-	/**
-	 * Launch the application.
-	 */
-//	public static void main(String[] args) {
-//		VAddressBook2 vab2 = new VAddressBook2();
-//		vab2.start();
-//	}
-//	
-//	public void start()  {
-//		EventQueue.invokeLater(new Runnable() {
-//			public void run() {
-//				try {
-//					MenuView menuView = new MenuView();
-//					menuView.setVisible(true);
-//				} catch (Exception e) {
-//					e.printStackTrace();
-//				}
-//			}
-//		});
-//	}
+
 
 	/**
 	 * Create the application.
@@ -70,9 +51,7 @@ public class MenuView extends JFrame {
 	public void setFrame() {
 		this.setTitle("조회");
 		this.setBounds(0, 0, 600, 400);
-//		frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
 		this.getContentPane().setLayout(null);
-//		this.setVisible(true);
 	}
 	
 	public void setLayout() {
@@ -152,10 +131,6 @@ public class MenuView extends JFrame {
 		lblNewLabel_7.setBounds(85, 250, 100, 30);
 		lblNewLabel_7.setFont(new Font("맑은 고딕", Font.BOLD, 10));
 		
-
-//		textField = new JTextField();
-//		setTextField(textField);
-//		textField = getTextField();
 		textField = new JTextField();
 		textField.setBounds(197, 15, 150, 20);
 		textField.setColumns(100);
@@ -296,11 +271,4 @@ public class MenuView extends JFrame {
 		this.btnNewButton_1 = btnNewButton_1;
 	}
 	
-//	public static void main(String[] args) {
-//		MenuView menuView = new MenuView();
-//		menuView.start();
-//	}
-
-	
-
 }
