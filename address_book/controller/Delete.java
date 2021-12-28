@@ -2,10 +2,7 @@ package address_book.controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.sql.SQLException;
-import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
