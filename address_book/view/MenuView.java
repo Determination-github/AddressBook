@@ -1,6 +1,5 @@
 package address_book.view;
 
-import java.awt.EventQueue;
 import java.awt.Font;
 
 import javax.swing.JButton;
