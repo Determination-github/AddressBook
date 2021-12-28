@@ -11,10 +11,11 @@
 <br>
 
 ## 📑 Description
-다음 유튜브 링크를 참조하여 MVC 디자인 패턴을 적용해 만들려고 노력하였습니다.
+
+### 다음 유튜브 링크를 참조하여 MVC 디자인 패턴을 적용해 만들려고 노력하였습니다.
 ( https://www.youtube.com/watch?v=ogaXW6KPc8I&t=4s )
 
-프로젝트를 진행하면서 적용한 규칙은 다음 5가지 입니다.
+### 프로젝트를 진행하면서 적용한 규칙은 다음 5가지 입니다.
 
   1. Model은 Controller와 View에 의존하지 않아야 한다. <br>
     (Model 내부에 Controller와 View에 관련된 코드가 있으면 안 된다.)
@@ -26,5 +27,5 @@
   5. View가 Model로부터 데이터를 받을 때, 반드시 Controller에서 받아야 한다.
 
 
-프로젝트에 MVC 패턴을 적용한 내용은 다음 블로그를 통해 내용을 정리하였습니다.<br>
+### 프로젝트에 MVC 패턴을 적용한 내용은 다음 블로그를 통해 내용을 정리하였습니다.<br>
 블로그 링크 : https://determination.tistory.com/entry/%EC%9E%90%EB%B0%94-%EC%9E%90%EB%B0%94-%EC%B4%88%EC%A7%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-MVC-%ED%8C%A8%ED%84%B4%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0?category=1048514
